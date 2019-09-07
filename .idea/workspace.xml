@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f8705d0-4160-470c-ac57-159f9d1c3f94" name="Default Changelist" comment="" />
+    <list default="true" id="0f8705d0-4160-470c-ac57-159f9d1c3f94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokedex/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokedex/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex/Trainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trainer.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +26,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QUZut4GNkS8eoGz3G1eu5Kr0aN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -77,11 +90,22 @@
       <option name="presentableId" value="Default" />
       <updated>1567827360998</updated>
       <workItem from="1567827362741" duration="7881000" />
-      <workItem from="1567870646772" duration="12224000" />
+      <workItem from="1567870646772" duration="16734000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
