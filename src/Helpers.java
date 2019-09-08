@@ -1,4 +1,3 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Helpers {
@@ -23,35 +22,23 @@ public class Helpers {
         //System.out.println(Arrays.deepToString(labels));
     }
 
-    public int validateInts(String userInput, String[] list) {
+    public int validation() {
+        String[] array = new String[3];
         Scanner stdIn = new Scanner(System.in);
-        int validatedInt = -99;
-        boolean valid = false;
 
-        //while (!valid) {
-            try {
-                validatedInt = Integer.parseInt(userInput);
-                //valid = true;
-                return validatedInt;
-            } catch (InputMismatchException ie) {
-                System.out.println("something broke during validation.");
-            }
-       // }
-
+        int unvalidated = -1;
         while (!stdIn.hasNextInt()) {
-            System.out.println("Enter the line number of your choice.");
+            System.out.println("Choose the line number of your choice");
             if (stdIn.hasNextInt()) {
-                if (stdIn.nextInt() > list.length && stdIn.nextInt() < 0) {
-                    System.out.println("Select 1, 2, or 3.");
+                unvalidated = stdIn.nextInt();
+                if (unvalidated > array.length) {
+                    System.out.println("Must be less than 3.");
                 }
             }
             stdIn.next();
         }
-        while (stdIn.nextInt() > list.length && stdIn.nextInt() < 0) {
-            System.out.println("Select 1, 2, or 3.");
-            return validatedInt = stdIn.nextInt();
-        }
-        return validatedInt;
+        unvalidated = stdIn.nextInt();
+        return unvalidated;
     }
 
 }

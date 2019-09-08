@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f8705d0-4160-470c-ac57-159f9d1c3f94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokedex/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex/Helpers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokedex/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokedex/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokedex/Trainer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567827360998</updated>
       <workItem from="1567827362741" duration="7881000" />
-      <workItem from="1567870646772" duration="16734000" />
+      <workItem from="1567870646772" duration="18606000" />
     </task>
     <servers />
   </component>

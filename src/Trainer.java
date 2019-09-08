@@ -27,7 +27,7 @@ public class Trainer extends Helpers {
             System.out.printf("%s: %s%n", i+1, starters[i]);
         }
 
-        int choice = validateInts(stdIn.next(), starters);
+        int choice = validation();
 
         String starterName = "bugged";
         int starterType = -1;
